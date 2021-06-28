@@ -285,7 +285,7 @@
     <div class="gallery__phrase">世界のレシピ検索</div>
     <h2 class="gallery__title animated">Global Recipe Search</h2>
     <p class="animated" id="powered">Powered by EDAMAM Recipe Search API</p>
-    <div id="app" class="container">
+    <div id="app" class="container ml-2 mr-2">
       <div class="row justify-content-center my-4">
         <header class="mb-5">
           <p class="pr-1 pl-1">世界中の様々なレシピサイトから、230万件以上のレシピをまとめて検索！<br>
@@ -332,7 +332,7 @@
           レシピが見つかりませんでした。別の言葉で検索してみてください。(英語のみ対応です　"chicken"など)
         </p>
       </div>
-      <div class="row pt-5 pl-2 pr-2" id="search">
+      <div class="row pt-5" id="search">
           <template v-if="isFound">
               <div
                 v-for="recipe in recipes"
