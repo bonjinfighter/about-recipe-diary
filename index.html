@@ -329,10 +329,10 @@
           データの取得に失敗しました。しばらく時間を置いてから、再度お試しください。
         </p>
         <p v-show="isNotFound">
-          レシピが見つかりませんでした。別の言葉で検索してみてください。
+          レシピが見つかりませんでした。別の言葉で検索してみてください。(英語のみ対応です　"chicken"など)
         </p>
       </div>
-      <div class="row pt-5" id="search">
+      <div class="row pt-5 pl-1 pr-1" id="search">
           <template v-if="isFound">
               <div
                 v-for="recipe in recipes"
